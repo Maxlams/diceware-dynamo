@@ -1,0 +1,42 @@
+body {
+  background-color: #FC99A6;
+  text-align: left;
+}
+
+.heading {
+  font-family: 'IBM Plex Serif', serif;
+  font-size: 4rem;
+  color: white;
+  margin: 1rem;
+  font-weight: bold;
+  width: 60%;
+}
+
+.body-div {
+  text-align: center;
+}
+
+.desc-text {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 5rem 0 1.5rem;
+}
+
+.btn-group .btn {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 1.5rem;
+}
+
+.generated-str {
+  font-family: 'IBM Plex Serif', serif;
+  font-size: 2.6rem;
+  color: #4c0008;
+  margin: 5rem;
+}
+
+/* .save-btn {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 1rem;
+  margin: 3rem;
+} */
