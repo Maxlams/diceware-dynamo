@@ -23,4 +23,5 @@ Diceware is secure because of this; if one word is chosen from this list, an att
 Now, add another word to your passphrase. The attacker's chances decrease to a one in 7776<sup>2</sup> = 60466176 chance of finding your word the first try, and would keep decreasing the more words are added. (unfinished)
 
 ![Entropy Image](https://imgs.xkcd.com/comics/password_strength.png)
+
 (image from [xkcd](https://xkcd.com/936/))
