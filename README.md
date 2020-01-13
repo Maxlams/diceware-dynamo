@@ -20,4 +20,7 @@ To simulate dice rolls, pseudo-random numbers are generated to index a string li
 
 Diceware is secure because of this; if one word is chosen from this list, an attack would have a one in 7776 chance of guessing your chosen word the first try. This might seem low, as the attacker may be able to correctly find your word after about 3888 tries (half of the list).
 
-Now, add another word to your passphrase. The attacker's chances decrease to a one in 7776<sup>2</sup> = 60466176 chance of finding your word the first try, and would keep decreasing the more words are added.
+Now, add another word to your passphrase. The attacker's chances decrease to a one in 7776<sup>2</sup> = 60466176 chance of finding your word the first try, and would keep decreasing the more words are added. (unfinished)
+
+![Entropy Image](https://imgs.xkcd.com/comics/password_strength.png)
+(image from [xkcd](https://xkcd.com/936/))
