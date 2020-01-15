@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr"><head>
+<html lang="en" dir="ltr">
+
+<head>
   <meta charset="utf-8">
   <title>Diceware Dynamo - Passphrase Generator</title>
 
@@ -11,8 +13,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-
-  </head>
+</head>
 
 <body>
 
@@ -22,38 +23,32 @@
 
     <div class="body-div">
 
-      <p class="desc-text">Guaranteed to generate an (unintentionally) repulsive passphrase. How many words would you like?</p>
+      <p class="desc-text">Generate a <strong>strong</strong>
+        password using Diceware! Trust me, it
+        <a class="gh-link" href="https://github.com/maxlambda/diceware-dynamo/blob/master/README.md">
+          really is secure
+        </a>
+        . How many words would you like?
+      </p>
 
       <div class="btn-group" role="group">
-        <button id="1" class="btn btn-danger" type="button" name="button">1</button>
-        <button id="2" class="btn btn-danger" type="button" name="button">2</button>
-        <button id="3" class="btn btn-danger" type="button" name="button">3</button>
-        <button id="4" class="btn btn-danger" type="button" name="button">4</button>
-        <button id="5" class="btn btn-danger" type="button" name="button">5</button>
-        <button id="6" class="btn btn-danger" type="button" name="button">6</button>
-        <button id="7" class="btn btn-danger" type="button" name="button">7</button>
-        <button id="8" class="btn btn-danger" type="button" name="button">8</button>
-        <button id="9" class="btn btn-danger" type="button" name="button">9</button>
-        <button id="10" class="btn btn-danger" type="button" name="button">10</button>
+        <button id="1" class="btn btn-danger" type="button">1</button>
+        <button id="2" class="btn btn-danger" type="button">2</button>
+        <button id="3" class="btn btn-danger" type="button" >3</button>
+        <button id="4" class="btn btn-danger" type="button" >4</button>
+        <button id="5" class="btn btn-danger" type="button" >5</button>
+        <button id="6" class="btn btn-danger" type="button" >6</button>
+        <button id="7" class="btn btn-danger" type="button" >7</button>
+        <button id="8" class="btn btn-danger" type="button" >8</button>
+        <button id="9" class="btn btn-danger" type="button" >9</button>
+        <button id="10" class="btn btn-danger" type="button">10</button>
       </div>
 
-      <!-- <div class="row"> -->
-
-        <!-- <div class="col-lg-6"> -->
-
-          <p class="generated-str"></p>
-
-        <!-- </div> -->
-
-        <!-- <div class="col-lg-6"> -->
-
-          <!-- <button type="button" class="save-btn btn btn-outline-light">save text</button> -->
-
-        <!-- </div> -->
-
-      </div>
+      <p class="generated-str"></p>
 
     </div>
+
+  </div>
 
   </div>
 
