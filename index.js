@@ -7783,7 +7783,7 @@ var diceware = {
   66652: "expansion", // modified
   66653: "legitimate", // modified
   66654: "execution", // modified
-  66655: "experienced", // modified
+  66655: "experience", // modified
   66656: "responsibility", // modified
   66661: "modesty", // modified
   66662: "perfection", // modified
@@ -7799,16 +7799,21 @@ $(".btn-group .btn").on("click touch", function() {
   var rStr = "";
 
   // generate random 5-digit number simulating a dice roll
+  // [$(this).attr("id")] is the number that was clicked on
   for(i = 1; i <= $(this).attr("id"); i++) {
     var rNumDigitFive = ((Math.floor(Math.random() * 6)) + 1) * 10000;
     var rNumDigitFour = ((Math.floor(Math.random() * 6)) + 1) * 1000;
     var rNumDigitThree = ((Math.floor(Math.random() * 6)) + 1) * 100;
     var rNumDigitTwo = ((Math.floor(Math.random() * 6)) + 1) * 10;
     var rNumDigitOne = ((Math.floor(Math.random() * 6)) + 1) * 1;
-
+    
+    // append the digits (add the numbers together)
     var rNum = rNumDigitFive + rNumDigitFour + rNumDigitThree + rNumDigitTwo + rNumDigitOne;
+    
+    // append the password together!
     rStr += (diceware[rNum] + " ");
   }
+  
   $(".generated-str").text(rStr);
 
 });
