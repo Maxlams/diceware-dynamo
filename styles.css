@@ -23,6 +23,14 @@ body {
   margin: 5rem 0 1.5rem;
 }
 
+.gh-link {
+  color: #C82333;
+}
+
+.gh-link:hover {
+  color: #f4cbce;
+}
+
 .btn-group .btn {
   font-family: 'IBM Plex Sans', sans-serif;
   font-size: 1.5rem;
