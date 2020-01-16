@@ -13,7 +13,7 @@
 // HAVE BEEN MANUALLY MODIFIED (as specified) by myself for
 // stylistic purposes.
 
-// read notes above.
+// https://stackoverflow.com/questions/14220321/how-do-i-return-the-response-from-an-asynchronous-call
 var diceware = {
   11111: "adage", // modified
   11112: "apple", // modified
