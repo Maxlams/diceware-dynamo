@@ -14,6 +14,7 @@
 // stylistic purposes.
 
 // https://stackoverflow.com/questions/14220321/how-do-i-return-the-response-from-an-asynchronous-call
+// **working on parsing a local JSON instead of creating this huge object :( **
 var diceware = {
   11111: "adage", // modified
   11112: "apple", // modified
@@ -7814,6 +7815,7 @@ $(".btn-group .btn").on("click touch", function() {
     rStr += (diceware[rNum] + " ");
   }
   
+  // display the text
   $(".generated-str").text(rStr);
 
 });
