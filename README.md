@@ -28,7 +28,11 @@ Essentially, by adding more and more words, you are creating *entropy*, or *rand
 ```shell
 spay ascend cycle mabel gould alga wonder dramatic glaze greek
 ```
-then you've created a passphrase with about over 240 bits of entropy. This is very, *very* secure (overkill, even) - you've made an uncrackable password. Congrats!
+then you've created a passphrase with over 97 bits of entropy. This is very, *very* secure: compare this to the average-looking password
+```shell
+Tr0ub4dor&3
+```
+as shown below. This passphrase only has about 28 bits of entropy - over **3 times less** than the previous one! Now, you should start [generating passwords with Diceware](https://maxlambda.github.io/diceware-dynamo/)!
 
 > learn more about **entropy** [here](https://www.pleacher.com/mp/mlessons/algebra/entropy.html)
 
