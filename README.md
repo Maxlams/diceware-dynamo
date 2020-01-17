@@ -32,7 +32,7 @@ then you've created a passphrase with over 97 bits of entropy. This is very, *ve
 ```shell
 Tr0ub4dor&3
 ```
-as shown below. This passphrase only has about 28 bits of entropy - over **3 times less** than the previous one! Now, you should start [generating passwords with Diceware](https://maxlambda.github.io/diceware-dynamo/)!
+as shown below. This passphrase only has about 28 bits of entropy - over **3 times less** than the previous one! Now, you should start [generating passwords with Diceware](https://maxlambda.github.io/diceware-dynamo/)! - Max 
 
 > learn more about **entropy** [here](https://www.pleacher.com/mp/mlessons/algebra/entropy.html)
 
