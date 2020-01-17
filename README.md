@@ -28,7 +28,7 @@ Essentially, by adding more and more words, you are creating *entropy*, or *rand
 ```shell
 spay ascend cycle mabel gould alga wonder dramatic glaze greek
 ```
-then you've created a passphrase with about over 240 bits of entropy. This is very, *very* secure; you've made an uncrackable password. Congrats!
+then you've created a passphrase with about over 240 bits of entropy. This is very, *very* secure (overkill, even) - you've made an uncrackable password. Congrats!
 
 > learn more about **entropy** [here](https://www.pleacher.com/mp/mlessons/algebra/entropy.html)
 
