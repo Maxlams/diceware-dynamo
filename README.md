@@ -24,7 +24,14 @@ Diceware is secure because of this; if one word is chosen from this list, an att
 
 If you add another word to your passphrase, the attacker's chances decrease to a one in 7776<sup>2</sup> = 60466176 chance of finding your word the first try, and would keep decreasing the more words are added.
 
-Essentially, by adding more and more words, you are creating *entropy*, or *randomness*, to ensure that your password is hack-proof. Yay!
+Essentially, by adding more and more words, you are creating *entropy*, or *randomness*, to ensure that your password is hack-proof. For example, if you use Diceware Dynamo to generate the ten-word string
+```shell
+spay ascend cycle mabel gould alga wonder dramatic glaze greek
+```
+then you've created a passphrase with about over 240 bits of entropy. This is very, *very* secure; you've made an uncrackable password. Congrats!
+
+> learn more about **entropy** [here](https://www.pleacher.com/mp/mlessons/algebra/entropy.html)
+
 
 ![Entropy Image](https://imgs.xkcd.com/comics/password_strength.png)
 
