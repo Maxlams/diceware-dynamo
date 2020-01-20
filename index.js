@@ -13,8 +13,11 @@
 // HAVE BEEN MANUALLY MODIFIED (as specified) by myself for
 // stylistic purposes.
 
+// ***********************************************************************************************
 // https://stackoverflow.com/questions/14220321/how-do-i-return-the-response-from-an-asynchronous-call
-// **working on parsing a local JSON instead of creating this huge object :( **
+//
+// working on parsing a local JSON file instead of creating this huge object :(
+// ***********************************************************************************************
 var diceware = {
   11111: "adage", // modified
   11112: "apple", // modified
