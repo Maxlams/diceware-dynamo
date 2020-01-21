@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <title>Diceware Dynamo - Passphrase Generator</title>
 
-  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans|IBM+Plex+Serif&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lora|Roboto&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css">
@@ -17,37 +17,48 @@
 
 <body>
 
-  <h1 class="heading">DICEWARE DYNAMO</h1>
+  <div class="container-fluid heading-container">
+    <div class="col-lg-12">
+      <h1 class="heading-txt">DICEWARE DYNAMO</h1>
+    </div>
+  </div>
 
-  <div class="container">
+  <div class="container-fluid body-div">
 
-    <div class="body-div">
+    <div class="col-lg-2">
+
+    </div>
+
+    <div class="col-lg-10 gen-div">
 
       <p class="desc-text">Generate a <strong>strong</strong>
         password using Diceware! Trust me, it
         <a class="gh-link" target="_blank" href="https://github.com/maxlambda/diceware-dynamo/blob/master/README.md">
-          really is secure
-        </a>
-        . How many words would you like?
+          really is secure</a>. How many words would you like?
       </p>
 
       <div class="btn-group" role="group">
         <button id="1" class="btn btn-danger" type="button">1</button>
         <button id="2" class="btn btn-danger" type="button">2</button>
-        <button id="3" class="btn btn-danger" type="button" >3</button>
-        <button id="4" class="btn btn-danger" type="button" >4</button>
-        <button id="5" class="btn btn-danger" type="button" >5</button>
-        <button id="6" class="btn btn-danger" type="button" >6</button>
-        <button id="7" class="btn btn-danger" type="button" >7</button>
-        <button id="8" class="btn btn-danger" type="button" >8</button>
-        <button id="9" class="btn btn-danger" type="button" >9</button>
+        <button id="3" class="btn btn-danger" type="button">3</button>
+        <button id="4" class="btn btn-danger" type="button">4</button>
+        <button id="5" class="btn btn-danger" type="button">5</button>
+        <button id="6" class="btn btn-danger" type="button">6</button>
+        <button id="7" class="btn btn-danger" type="button">7</button>
+        <button id="8" class="btn btn-danger" type="button">8</button>
+        <button id="9" class="btn btn-danger" type="button">9</button>
         <button id="10" class="btn btn-danger" type="button">10</button>
       </div>
 
-      <p class="generated-str"></p>
-
     </div>
 
+  </div>
+
+  <div class="container-fluid footer-container">
+    <div class="col-lg-12">
+      <p class="passphrase">PASSPHRASE:</p>
+      <p class="generated-str"></p>
+    </div>
   </div>
 
   </div>
