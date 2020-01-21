@@ -1,26 +1,46 @@
-body {
-  background-color: #FC99A6;
-  text-align: left;
+html {
+  background-color: #ea626d;
 }
 
-.heading {
-  font-family: 'IBM Plex Serif', serif;
-  font-size: 4rem;
-  color: white;
-  margin: 1rem;
+body {
+  text-align: left;
+  background-image: url("images/dice.jpg");
+  background-size: 100%;
+}
+
+.heading-container {
+  margin: 0;
+  background-color: #ea626d;
+}
+
+.heading-txt {
+  font-family: 'Roboto', sans-serif;
+  font-size: 5rem;
+  color: #f9f4f4;
+  padding: 2rem 0;
   font-weight: bold;
-  width: 60%;
+  text-shadow: 2px 1px black;
 }
 
 .body-div {
+  margin-top: 5rem;
+}
+
+.gen-div {
   text-align: center;
+  margin: 0 auto 3rem auto;
+  box-shadow: 2px 3px 3px black;
+  width: 65%;
+  padding: 1.5rem 0 3rem;
+  background-color: #fcdbdb;
+  border-radius: 1rem;
 }
 
 .desc-text {
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'Lora', serif;
   font-size: 1rem;
   font-weight: bold;
-  margin: 5rem 0 1.5rem;
+  margin: 1rem 0 1.5rem;
 }
 
 .gh-link {
@@ -28,23 +48,33 @@ body {
 }
 
 .gh-link:hover {
-  color: #f4cbce;
+  color: #ea626d;
 }
 
 .btn-group .btn {
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'Lora',serif;
   font-size: 1.5rem;
+  box-shadow: 0.5px 2px 2px black;
+}
+
+.passphrase {
+  font-family: 'Roboto', sans-serif;
+  font-size: 3rem;
+  color: #fcdbdb;
+  margin-top: 3rem;
+  text-shadow: 2px 1px black;
 }
 
 .generated-str {
-  font-family: 'IBM Plex Serif', serif;
-  font-size: 2.6rem;
-  color: #4c0008;
-  margin: 5rem;
+  font-family: 'Lora',serif;
+  font-size: 2rem;
+  color: white;
+  margin-left: 1rem;
+  text-shadow: 1px 1px black;
 }
 
-/* .save-btn {
-  font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 1rem;
-  margin: 3rem;
-} */
+.footer-container {
+  margin: 0;
+  padding: 1rem;
+  height: 2rem;
+}
