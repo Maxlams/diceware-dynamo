@@ -13,12 +13,15 @@
 // HAVE BEEN MANUALLY MODIFIED (as specified) by myself for
 // stylistic purposes.
 
+// next line is for Atom's jshint package
+// jshint esversion:6
+
 // ***********************************************************************************************
 // https://stackoverflow.com/questions/14220321/how-do-i-return-the-response-from-an-asynchronous-call
 //
 // working on parsing a local JSON file instead of creating this huge object :(
 // ***********************************************************************************************
-var diceware = {
+let diceware = {
   11111: "adage", // modified
   11112: "apple", // modified
   11113: "aspire", // modified
@@ -7800,25 +7803,24 @@ var diceware = {
 // click or touch event
 $(".btn-group .btn").on("click touch", function() {
 
-  var rStr = "";
+  let randomStr = "";
 
   // generate random 5-digit number simulating a dice roll
   // [$(this).attr("id")] is the number that was clicked on
   for(i = 1; i <= $(this).attr("id"); i++) {
-    var rNumDigitFive = ((Math.floor(Math.random() * 6)) + 1) * 10000;
-    var rNumDigitFour = ((Math.floor(Math.random() * 6)) + 1) * 1000;
-    var rNumDigitThree = ((Math.floor(Math.random() * 6)) + 1) * 100;
-    var rNumDigitTwo = ((Math.floor(Math.random() * 6)) + 1) * 10;
-    var rNumDigitOne = ((Math.floor(Math.random() * 6)) + 1) * 1;
-    
+    let rNumDigitFive = ((Math.floor(Math.random() * 6)) + 1) * 10000;
+    let rNumDigitFour = ((Math.floor(Math.random() * 6)) + 1) * 1000;
+    let rNumDigitThree = ((Math.floor(Math.random() * 6)) + 1) * 100;
+    let rNumDigitTwo = ((Math.floor(Math.random() * 6)) + 1) * 10;
+    let rNumDigitOne = ((Math.floor(Math.random() * 6)) + 1) * 1;
+
     // append the digits (add the numbers together)
-    var rNum = rNumDigitFive + rNumDigitFour + rNumDigitThree + rNumDigitTwo + rNumDigitOne;
-    
-    // append the password together!
-    rStr += (diceware[rNum] + " ");
+    let rNum = rNumDigitFive + rNumDigitFour + rNumDigitThree + rNumDigitTwo + rNumDigitOne;
+
+    randomStr += (diceware[rNum] + " ");
   }
-  
+
   // display the text
-  $(".generated-str").text(rStr);
+  $(".generated-str").text(randomStr);
 
 });
